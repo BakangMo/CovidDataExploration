@@ -24,7 +24,10 @@ ORDER BY 1,2
 
 --Convert to float
 ALTER TABLE portfolioproject.dbo.CovidDeaths
-ALTER COLUMN Total_cases FLOAT, Total_deaths FLOAT
+ALTER COLUMN Total_cases FLOAT
+
+ALTER TABLE portfolioproject.dbo.CovidDeaths
+ALTER COLUMN Total_deaths FLOAT
 
 
 --Looking at Total Cases vs Population
